@@ -3,7 +3,7 @@
 Specs:
 
 - CPU: Intel Core i3 5005U
-- GPU: Intel HD
+- GPU: Intel HD 5500
 - dGPU: AMD Radeon R5 M330 (Disabled via SSDT)
 - Network: RTL810xE Ethernet controller
 - Audio: Realtek ALC
