@@ -9,7 +9,7 @@ Specs:
 - Audio: Realtek ALC
 - RAM: 12GB DDR
 - HDD: 240GB PNY SSD
-- Opencore version: 0.5.
+- Opencore version: 0.5.9
 
 What's working:
 
