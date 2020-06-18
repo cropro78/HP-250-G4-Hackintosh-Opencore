@@ -115,13 +115,6 @@ It should look like this
     and then save the Config.plist you have created earlier. Reboot, and you should have
     a working LID.
 
-```
-Change this one
-```
-```
-And this one
-```
-
 For Patching the Intel GPU HD5500 With HDMI audio under Opencore:
 For this you will be needing ProperTree
 
@@ -131,5 +124,7 @@ new key with the same type) you will insert the next properties:
 Also for HDMI audio, it is necessarry to create also PciRoot(0x0)/Pci(0x03,0x0) to get audio
 working, you will have to use those settings which are in the same screenshot, and also
 framebuffer patches.
+
+<img src="/screenshots/gpu.png"/>
 
 
