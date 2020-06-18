@@ -6,8 +6,8 @@ Specs:
 - GPU: Intel HD 5500
 - dGPU: AMD Radeon R5 M330 (Disabled via SSDT)
 - Network: RTL810xE Ethernet controller
-- Audio: Realtek ALC
-- RAM: 12GB DDR
+- Audio: Realtek ALC282
+- RAM: 12GB DDR3
 - HDD: 240GB PNY SSD
 - Opencore version: 0.5.9
 
@@ -41,7 +41,7 @@ List of Patches and kexts
 - SSDT-HPET (For patching IRQ conflicts, build it with SSDTTime on Windows)
 - SSDT-PLUG (For fixing Power Management, build it with SSDTTime on Windows)
 - SSDT-PNLF (For repairing backlight, for use with WhateverGreen)
-- AppleALC (Best alcid layout id for ALC282 is: 3)
+- AppleALC (Best alcid layout id for ALC282 on this laptop is: 3)
 - Lilu
 - RealtekRTL
 - SMCBatteryManager
@@ -96,6 +96,7 @@ to find the real path of your LID. The easiest way to find the path of the LID i
 Windows Device Manager under System devices/ACPI Lid, Property BIOS device
 name:
 ```
+![Alt text](/screenshots/WindowsPath.png "Optional title")
 
 ```
 In my case the ACPI path for LID0 is _SB.PCI0.LPCB.LID0, so you will have to change
