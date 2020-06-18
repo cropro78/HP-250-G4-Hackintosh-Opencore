@@ -103,12 +103,12 @@ name:
 In my case the ACPI path for LID0 is _SB.PCI0.LPCB.LID0, so you will have to change
 all _SB.LID0 to _SB.PCI0.LPCB.LID
 ```
-<img src="/screenshots/Patch1.png"/>
+<img src="/screenshots/patch1.png"/>
 
 ```
 It should look like this
 ```
-<img src="/screenshots/Patch2.png"/>
+<img src="/screenshots/patch2.png"/>
 
 4. Install the ACPIPoller kext under EFI/OC/Kexts, and compile and save the patched
     DSDT to EFI/OC/ACPI, and then with ProperTree, and then go to File/OC Snapshot,
