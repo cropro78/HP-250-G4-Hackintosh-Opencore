@@ -96,7 +96,8 @@ to find the real path of your LID. The easiest way to find the path of the LID i
 Windows Device Manager under System devices/ACPI Lid, Property BIOS device
 name:
 ```
-![Alt text](/screenshots/WindowsPath.png?raw=true width=345 height=393 "Optional title")
+<img src="/screenshots/WindowsPath.png" width="345" height="393"/>
+
 
 ```
 In my case the ACPI path for LID0 is _SB.PCI0.LPCB.LID0, so you will have to change
