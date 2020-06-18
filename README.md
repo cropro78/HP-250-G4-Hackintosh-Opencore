@@ -92,6 +92,8 @@ For fixing the lid you will have to need:
 3. When you apply the patch you will have a Device (LIDP) on the
     bottom on your DSDT:
 
+<img src="/screenshots/patch2.png"/>
+
 ```
 Please note that this configuration will not work as it is, since this path in the
 Method (FCPU...) SB.LID0 doesn't probaby exist in your DSDT, and then, you will have
@@ -111,7 +113,7 @@ all _SB.LID0 to _SB.PCI0.LPCB.LID
 ```
 It should look like this
 ```
-<img src="/screenshots/patch2.png"/>
+<img src="/screenshots/patch0.png"/>
 
 4. Install the ACPIPoller kext under EFI/OC/Kexts, and compile and save the patched
     DSDT to EFI/OC/ACPI, and then with ProperTree, and then go to File/OC Snapshot,
