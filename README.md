@@ -106,7 +106,7 @@ name:
 
 ```
 In my case the ACPI path for LID0 is _SB.PCI0.LPCB.LID0, so you will have to change
-all _SB.LID0 to _SB.PCI0.LPCB.LID
+all _SB.LID0 to _SB.PCI0.LPCB.LID (Or whatever it shows as
 ```
 <img src="/screenshots/patch1.png"/>
 
