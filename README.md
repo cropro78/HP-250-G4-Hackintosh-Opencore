@@ -61,7 +61,7 @@ Tools/Guides used:
 
 - For most SSDT patches(SSDT-EC, SSDT-HPET, SSDT-PLUG, SSDT-PNLF, USBmap, SSDT-
     dGPU-OFF) and also Opencore config for Broadwell: https://dortania.github.io
-    - If you get a kernel panic before the first installation be sure to enable in OpenCore plist under Kernel, Quirks: EnableKernelPanic
+    - If you get a kernel panic before the first installation be sure to enable in OpenCore plist under Kernel, Quirks: EnableKernelPanic=True
 - DSDT patches were installed through RehabMan's version of MaciASL:
     https://bitbucket.org/RehabMan/os-x-maciasl-patchmatic/downloads/
 - DSDT was extracted through iasl on Windows: https://github.com/RehabMan/Intel-
