@@ -122,7 +122,7 @@ For Patching the Intel GPU HD5500 With HDMI audio under Opencore:
 For this you will be needing ProperTree
 
 Under device properties, under PciRoot(0x0)/Pci(0x2,0x0) (If it doesn't exist, just create a
-new key with the same type) you will insert the next properties:
+new key with the same type) you will need to insert the next properties (Picture down below)
 
 Also for HDMI audio, it is necessarry to create also PciRoot(0x0)/Pci(0x03,0x0) to get audio
 working, you will have to use those settings which are in the same screenshot, and also
