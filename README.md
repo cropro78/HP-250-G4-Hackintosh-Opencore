@@ -1,5 +1,8 @@
 # HP 250 G4 (Broadwell) Opencore Hackintosh Guide
 
+<img src="/screenshots/macinfo1.png"/>
+<img src="/screenshots/macinfo2.png"/>
+
 Specs:
 
 - CPU: Intel Core i3 5005U
