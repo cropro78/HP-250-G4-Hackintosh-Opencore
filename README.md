@@ -131,4 +131,4 @@ framebuffer patches. (Those settings were pulled of RehabMan's clover config)
 
 <img src="/screenshots/gpu.png"/>
 
-
+I will upload my EFI Opencore folder, but without the ACPI patches, since for best compatibility you will have to compile those patches by yourself.
