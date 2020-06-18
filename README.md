@@ -60,11 +60,13 @@ List of Patches and kexts
 Tools/Guides used:
 
 - For most SSDT patches(SSDT-EC, SSDT-HPET, SSDT-PLUG, SSDT-PNLF, USBmap, SSDT-
-    dGPU-OFF) and also Opencore config: https://dortania.github.io
+    dGPU-OFF) and also Opencore config for Broadwell: https://dortania.github.io
+    - If you get a kernel panic before the first installation be sure to enable in OpenCore plist under Kernel, Quirks: EnableKernelPanic
 - DSDT patches were installed through RehabMan's version of MaciASL:
     https://bitbucket.org/RehabMan/os-x-maciasl-patchmatic/downloads/
 - DSDT was extracted through iasl on Windows: https://github.com/RehabMan/Intel-
     iasl
+- Opencore: https://github.com/acidanthera/OpenCorePkg/releases
 - AppleALC: https://github.com/acidanthera/AppleALC
 - Lilu: https://github.com/acidanthera/lilu/releases
 - RealtekRTL8100: https://www.osx86.net/files/file/4830-realtekrtl8100kext/
@@ -124,9 +126,8 @@ For this you will be needing ProperTree
 Under device properties, under PciRoot(0x0)/Pci(0x2,0x0) (If it doesn't exist, just create a
 new key with the same type) you will need to insert the next properties (Picture down below)
 
-Also for HDMI audio, it is necessarry to create also PciRoot(0x0)/Pci(0x03,0x0) to get audio
-working, you will have to use those settings which are in the same screenshot, and also
-framebuffer patches.
+Also for HDMI audio, it is necessarry to create also PciRoot(0x0)/Pci(0x03,0x0) and also apply the framebuffer patches for HDMI to get the same working. You will have to use those settings which are in the same screenshot, and also
+framebuffer patches. (Those settings were pulled of RehabMan's clover config)
 
 <img src="/screenshots/gpu.png"/>
 
