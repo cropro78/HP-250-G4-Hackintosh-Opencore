@@ -21,11 +21,10 @@ What's working:
 - Brightness control
 - CPU Power Management
 - Metal
-
-
 - SD Card reader
-- HDMI Audio
-- Built in Camera, Microphone
+- HDMI Audio, Video
+- Built in Camera
+- Sound, Microphone (With AppleALC which works better than VoodooHDA)
 - VGA
 
 Problems:
@@ -69,13 +68,12 @@ Tools/Guides used:
 - AppleALC: https://github.com/acidanthera/AppleALC
 - Lilu: https://github.com/acidanthera/lilu/releases
 - RealtekRTL8100: https://www.osx86.net/files/file/4830-realtekrtl8100kext/
-
-
 - VirtualSMC (Includes: SMCBatteryManager, SMCProcessor, SMCSuperIO):
     https://github.com/acidanthera/virtualsmc/releases
 - USBInjectALL guide: https://dortania.github.io/USB-Map-Guide/
 - VoodooPS2Controller: https://bitbucket.org/RehabMan/os-x-voodoo-ps2-
     controller/downloads/
+- ACPIPoller: https://bitbucket.org/RehabMan/os-x-acpi-poller/downloads/
 - Whatevergreen: https://github.com/acidanthera/WhateverGreen/releases
 - MountEFI: https://github.com/corpnewt/MountEFI
 - ProperTree: https://github.com/corpnewt/ProperTree
@@ -106,7 +104,7 @@ name:
 
 ```
 In my case the ACPI path for LID0 is _SB.PCI0.LPCB.LID0, so you will have to change
-all _SB.LID0 to _SB.PCI0.LPCB.LID (Or whatever it shows as
+all _SB.LID0 to _SB.PCI0.LPCB.LID (Or whatever it shows as BIOS device name)
 ```
 <img src="/screenshots/patch1.png"/>
 
