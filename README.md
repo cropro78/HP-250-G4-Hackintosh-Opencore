@@ -131,5 +131,3 @@ Also for HDMI audio, it is necessarry to create also PciRoot(0x0)/Pci(0x03,0x0) 
 framebuffer patches. (Those settings were pulled of RehabMan's clover config)
 
 <img src="/screenshots/gpu.png"/>
-
-I will upload my EFI Opencore folder (Hope it helps for building your own Opencore EFI folder, please don't use it as it is, since this probably isn't the most compatible version for your laptop, and you won't learn anything if you go by this path), but without the ACPI patches, since for best compatibility you will have to compile those patches by yourself. And for kexts, please just use it from sources to get the latest version of the same.
