@@ -121,6 +121,7 @@ It should look like this
     a working LID.
 
 For Patching the Intel GPU HD5500 With HDMI audio under Opencore:
+
 For this you will be needing ProperTree
 
 Under device properties, under PciRoot(0x0)/Pci(0x2,0x0) (If it doesn't exist, just create a
