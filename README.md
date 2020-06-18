@@ -16,7 +16,7 @@ Specs:
 
 What's working:
 
-- Sleep (And also by closing the lid, works on AC, and on battery didn't test, since I am
+- Sleep (And also by closing the lid, works on AC, and on battery I didn't test, since I am
     waiting for an replacement)
 - Brightness control
 - CPU Power Management
